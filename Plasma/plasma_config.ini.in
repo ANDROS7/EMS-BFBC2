@@ -1,0 +1,16 @@
+[debug]
+file_create=true
+file_name=plasma
+file_split=true
+file_notification_level=5
+file_warning_level=5
+console_notification_level=5
+console_warning_level=5
+
+[database]
+host=127.0.0.1
+username=root
+password=root
+database=plasma
+port=3306
+
