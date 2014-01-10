@@ -38,12 +38,14 @@ bool CDatabase::Connect( )
 	sprintf(connectUrl, "tcp://%s:%i", host, port);
 
 	//Try to connect
-	con = driver->connect(connectUrl, username, password);
-	
-	if(!con)
+	try
 	{
-		fw->debug->error("CDatabase", "Could not connect to database");
-		return false;
+		con = driver->connect(connectUrl, username, password);
+	}
+	catch(sql::SQLException &e)
+	{
+		fw->debug->notification(1, "CDatabase", "Could not connect to database");
+		exit(0);
 	}
 
 	//Select the database
