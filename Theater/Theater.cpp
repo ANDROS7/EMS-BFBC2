@@ -31,7 +31,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Keep alive
 	while(true)
 	{
-
+	Sleep(30000);
 	}
 	
 	delete fw;
