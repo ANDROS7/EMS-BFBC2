@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectInput8">
+      <UniqueIdentifier>{0323d2b7-c8c7-457c-bd15-b812438bd448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{22ff99c6-6caf-4244-bc01-2a5302099641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nexus">
+      <UniqueIdentifier>{2f13e9e0-936b-41b6-8d99-56e9e2c7f5ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dinput.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\di_wrap.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>DirectInput8</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BC2.h">
+      <Filter>Nexus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="Utils.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="BC2.cpp">
+      <Filter>Nexus</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
