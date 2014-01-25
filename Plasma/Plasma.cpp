@@ -8,7 +8,6 @@
 
 CFramework* fw;
 void serverListener(LPVOID lpParam);
-void clientListener(LPVOID lpParam);
 
 
 int _tmain(int argc, _TCHAR* argv[])
@@ -25,13 +24,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Create the server listener
 	_beginthread(serverListener, 0, NULL);
 
-	//Create the client socket
-	_beginthread(clientListener, 0, NULL);
+	fw->handler->Run();
 
 	//Keep alive
 	while(true)
 	{
-	Sleep(30000);
+		Sleep(30000);
 	}
 	
 	delete fw;

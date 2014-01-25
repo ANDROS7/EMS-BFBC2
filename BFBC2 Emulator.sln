@@ -6,18 +6,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Theater", "Theater\Theater.vcxproj", "{9FD7C29C-8393-40DE-9C67-885132301D34}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://184.171.161.254:8080/tfs/emulator
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Plasma\\Plasma.vcxproj
-		SccProjectName1 = Plasma
-		SccLocalPath1 = Plasma
-		SccProjectUniqueName2 = Theater\\Theater.vcxproj
-		SccProjectName2 = Theater
-		SccLocalPath2 = Theater
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Linux = Debug|Linux
 		Debug|Win32 = Debug|Win32
@@ -27,16 +15,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Linux.ActiveCfg = Debug|Win32
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Linux.Build.0 = Debug|Win32
-		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Win32.Build.0 = Debug|Win32
+		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Win32.ActiveCfg = Release|Win32
+		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Debug|Win32.Build.0 = Release|Win32
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Release|Linux.ActiveCfg = Release|Win32
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Release|Linux.Build.0 = Release|Win32
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Release|Win32.ActiveCfg = Release|Win32
 		{1ABCAC03-5A08-4445-81C7-8B3EC8D7BC2C}.Release|Win32.Build.0 = Release|Win32
 		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Linux.ActiveCfg = Debug|Win32
 		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Linux.Build.0 = Debug|Win32
-		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Win32.ActiveCfg = Debug|Win32
-		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Win32.Build.0 = Debug|Win32
+		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Win32.ActiveCfg = Release|Win32
+		{9FD7C29C-8393-40DE-9C67-885132301D34}.Debug|Win32.Build.0 = Release|Win32
 		{9FD7C29C-8393-40DE-9C67-885132301D34}.Release|Linux.ActiveCfg = Release|Win32
 		{9FD7C29C-8393-40DE-9C67-885132301D34}.Release|Linux.Build.0 = Release|Win32
 		{9FD7C29C-8393-40DE-9C67-885132301D34}.Release|Win32.ActiveCfg = Release|Win32
