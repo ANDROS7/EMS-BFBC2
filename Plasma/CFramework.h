@@ -7,13 +7,14 @@
 #include "CDebug.h"
 #include "CConfig.h"
 #include "CDatabase.h"
-
+#include "Handler.h"
 
 class CFramework {
 public:
 	CDebug*		debug;
 	CConfig*	config;
 	CDatabase*	database;
+	Handler*    handler;
 
 	CFramework( );
 	~CFramework( );

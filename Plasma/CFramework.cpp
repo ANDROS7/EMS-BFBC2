@@ -11,6 +11,7 @@ CFramework::CFramework( )
 	debug		= new CDebug( this );
 	config		= new CConfig( this );
 	database	= new CDatabase( this );
+	handler 	= new Handler( this );
 }
 
 CFramework::~CFramework( )
